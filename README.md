@@ -46,6 +46,8 @@ Below, I have provided the Power BI dashboard, which includes relevant diagrams 
 
 ![Screenshot 2024-05-27 152656](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/ce08d7ee-ae95-4687-bf8b-d17891982e51)
 
+## Execution
+
 In the Power BI dashboard, we have the functionality to analyze revenue for specific years. By clicking on the year mentioned in the dashboard, for instance, 2020, we can obtain detailed insights into the revenue generated during that period. Upon selecting the year 2020, the dashboard displays the revenue value as $142.22 million, accompanied by the corresponding quantity metrics. Furthermore, the dashboard presents a graphical representation of the revenue trend specifically for the year 2020, allowing for a visual understanding of the revenue performance throughout the year.
 
 To ensure data accuracy and reliability, we can verify the revenue value obtained from Power BI using MySQL. Below, I have provided the specific code snippet for this verification process.
@@ -68,6 +70,8 @@ The figure illustrates the revenue trend for Chennai in the year 2020, indicatin
 SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.transactions.market_code= 'Mark001'; # Get the revenue on year 2020 in Chennai
 ```
 ![Untitled2](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/78d181d1-196d-45ab-b433-89fe9b5d86d7)
+
+Based on revenue analysis, Electricalsara Stores emerges as the top-performing customer, boasting a revenue of $413.33 million and a sales quantity of 654,000 units. This substantial revenue figure underscores Electricalsara Stores' exceptional performance and significant contribution to overall sales.
 
 
 
