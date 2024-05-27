@@ -71,7 +71,7 @@ SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN s
 ```
 ![Untitled2](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/78d181d1-196d-45ab-b433-89fe9b5d86d7)
 
-Based on revenue analysis, Electricalsara Stores emerges as the top-performing customer, boasting a revenue of $413.33 million and a sales quantity of 654,000 units. This substantial revenue figure underscores Electricalsara Stores' exceptional performance and significant contribution to overall sales.
+Based on revenue analysis, Electricalsara Stores emerges as the top-performing customer, boasting a revenue of 413.33 million and a sales quantity of 654,000 units. This substantial revenue figure underscores Electricalsara Stores' exceptional performance and significant contribution to overall sales.
 
 
 
