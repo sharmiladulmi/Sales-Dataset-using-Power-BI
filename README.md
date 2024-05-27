@@ -18,5 +18,12 @@ An automated dashboard providing quick & latest insights in order to support dat
 - Sales team able to take better decisions & prove 10% cost savings of total spend.
 - Sales Analysts stop data gathering manually in order to save 20% of their business time and reinvest it value added activity.
 
+## Methodology
+In this project, I leveraged Power BI to establish a connection with a MySQL database. By configuring this connection, I was able to import data and tables from MySQL directly into the Power BI environment. This integration allowed for real-time data extraction, ensuring that the visualizations and reports in Power BI were based on the most current data available in the MySQL database. The seamless data flow between MySQL and Power BI significantly enhanced the efficiency and accuracy of the data analysis and reporting process.
+
+The following diagram presents the data model, highlighting the relationships between various tables. It visually represents how the tables are interconnected, facilitating a better understanding of the data structure.
+
+
+
 
 ![Screenshot 2024-05-27 152656](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/ce08d7ee-ae95-4687-bf8b-d17891982e51)
