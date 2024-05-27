@@ -25,7 +25,13 @@ The following diagram presents the data model, highlighting the relationships be
 
 ![image](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/15f2f84a-0460-43fe-9e31-838854d5c8d5)
 
+Power BI includes a table mode where we perform data transformation, data cleaning, data wrangling, and data merging tasks. In this project, we have carried out the following actions:
 
+- Removed null values from the sales market table.
+- Removed 0 and -1 values from the sales amount column in the sales transaction table.
+- Added a new column named 'norm_sales_transactions,' which normalizes the sales transactions to the Indian currency format.
+- Removed duplicate values 'INR' and 'USD' from the currency column in the sales transactions table.
+- Changed the date format in the 'cy_date' column in the date table.
 
 
 
