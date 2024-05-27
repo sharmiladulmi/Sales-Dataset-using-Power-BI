@@ -33,6 +33,15 @@ Power BI includes a table mode where we perform data transformation, data cleani
 - Removed duplicate values 'INR' and 'USD' from the currency column in the sales transactions table.
 - Changed the date format in the 'cy_date' column in the date table.
 
+Below, I have provided the Power BI dashboard, which includes relevant diagrams and charts essential for gaining a thorough understanding of the dataset's insights, patterns, and trends. The dashboard consists of the following elements:
+
+- Two cards that display the company's revenue and sales quantity.
+- Two bar graphs that show revenue by market and sales quantity by market.
+- A line chart that illustrates the revenue trend over time.
+- At the bottom of the dashboard, there are sections highlighting the top 5 customers by revenue and the top 5 products by revenue.
+- Additionally, users can filter the revenue data by year using the year selection options located at the top of the dashboard.
+- These visualizations collectively provide a detailed overview of the dataset, enabling users to identify key insights and trends effectively.
+
 
 
 ![Screenshot 2024-05-27 152656](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/ce08d7ee-ae95-4687-bf8b-d17891982e51)
