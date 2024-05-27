@@ -55,5 +55,13 @@ SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN s
 ```
 ![Untitled](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/48906aae-54ae-48ac-aed9-ed8faed8e2cc)
 
+The image below presents a snapshot of the revenue for January 2020, displaying a total value of 25.66 million. This information was retrieved and verified through an SQL command. By executing the SQL command, we confirmed the accuracy of the revenue figure for January 2020, ensuring data consistency and reliability.
+
+```
+SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and date.month_name='January'; # Get the revenue of in year 2020 January
+```
+![Untitled1](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/33fcba28-9ed3-4377-8fef-0af3032c0be2)
+
+
 
 
