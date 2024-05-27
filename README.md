@@ -23,6 +23,9 @@ In this project, I leveraged Power BI to establish a connection with a MySQL dat
 
 The following diagram presents the data model, highlighting the relationships between various tables. It visually represents how the tables are interconnected, facilitating a better understanding of the data structure.
 
+![image](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/15f2f84a-0460-43fe-9e31-838854d5c8d5)
+
+
 
 
 
