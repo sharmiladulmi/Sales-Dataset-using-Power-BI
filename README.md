@@ -44,10 +44,13 @@ Below, I have provided the Power BI dashboard, which includes relevant diagrams 
 - Additionally, users can filter the revenue data by year using the year selection options located at the top of the dashboard.
 - These visualizations collectively provide a detailed overview of the dataset, enabling users to identify key insights and trends effectively.
 
+![Untitled](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/48906aae-54ae-48ac-aed9-ed8faed8e2cc)
+In the Power BI dashboard, we have the functionality to analyze revenue for specific years. By clicking on the year mentioned in the dashboard, for instance, 2020, we can obtain detailed insights into the revenue generated during that period. Upon selecting the year 2020, the dashboard displays the revenue value as $142.22 million, accompanied by the corresponding quantity metrics. Furthermore, the dashboard presents a graphical representation of the revenue trend specifically for the year 2020, allowing for a visual understanding of the revenue performance throughout the year.
+
+To ensure data accuracy and reliability, we can verify the revenue value obtained from Power BI using MySQL. Below, I have provided the specific code snippet for this verification process.
+
 ```
-this is my
-audvdfg
-sdfds
+SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020; # Get the revenue of the year 2020
 ```
 
 ![Screenshot 2024-05-27 152656](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/ce08d7ee-ae95-4687-bf8b-d17891982e51)
