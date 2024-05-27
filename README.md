@@ -62,6 +62,10 @@ SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN s
 ```
 ![Untitled1](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/33fcba28-9ed3-4377-8fef-0af3032c0be2)
 
+The figure illustrates the revenue trend for Chennai in the year 2020, indicating a revenue value of 2.46 million. This specific revenue data point provides insight into the performance of Chennai throughout the year 2020. By analyzing the revenue trend, we can gain a better understanding of the fluctuations and patterns in Chennai's revenue over the specified period.
 
+```
+SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date=sales.date.date where sales.date.year=2020 and sales.transactions.market_code= 'Mark001'; # Get the revenue on year 2020 in Chennai
+```
 
 
