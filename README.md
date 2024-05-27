@@ -18,5 +18,5 @@ An automated dashboard providing quick & latest insights in order to support dat
 - Sales team able to take better decisions & prove 10% cost savings of total spend.
 - Sales Analysts stop data gathering manually in order to save 20% of their business time and reinvest it value added activity.
 
-![Screenshot 2024-05-24 161917](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/1f2063a0-fdc6-4720-b608-f436ff4b73cb)
+
 ![Screenshot 2024-05-27 152656](https://github.com/sharmiladulmi/Sales-Dataset-using-Power-BI/assets/75578997/ce08d7ee-ae95-4687-bf8b-d17891982e51)
