@@ -33,6 +33,8 @@ Power BI includes a table mode where we perform data transformation, data cleani
 - Removed duplicate values 'INR' and 'USD' from the currency column in the sales transactions table.
 - Changed the date format in the 'cy_date' column in the date table.
 
+### Power BI Dashboard
+
 Below, I have provided the Power BI dashboard, which includes relevant diagrams and charts essential for gaining a thorough understanding of the dataset's insights, patterns, and trends. The dashboard consists of the following elements:
 
 - Two cards that display the company's revenue and sales quantity.
